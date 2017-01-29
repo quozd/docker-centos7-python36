@@ -13,3 +13,9 @@ docker build -t quozd/centos7-python36 .
 ```
 docker run -it --rm quozd/centos7-python36 bash
 ```
+
+### Using as base image
+
+```
+FROM quozd/centos7-python36
+```
